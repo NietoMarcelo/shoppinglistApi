@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
     res.send('welcome')
 })
 
+app.use((req, res) => {
+    res.send('nacho')
+})
+
 const PORT = process.env.PORT || 5000
 
 app.listen(PORT, () => {
