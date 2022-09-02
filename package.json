@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'no se esta buildeando nada actualmente'",
     "start": "node index",
-    "dev": "nodemon server",
-    "build": "echo 'no se esta buildeando nada actualmente'"
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
