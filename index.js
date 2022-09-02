@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/', (req, res) => {
-    res.send('welcome')
+    res.send('welcome chiques :D')
 })
 
 app.use((req, res) => {
